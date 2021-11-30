@@ -1,0 +1,5 @@
+# 账号密码永远不能上传到Git
+/_config.yml
+
+__pycache__/
+/venv
