@@ -17,16 +17,16 @@
 | gitee-pages-action | 一个开源项目，用来自动更新GiteePages                         |
 | update             | 更新助手的静态服务端文件                                     |
 | .nojekyll          | **不能删除**，否则可能无法访问带有下划线`_`的文件            |
-| index.html         | **不能删除**，否则Pages站点可能无法正常访问                  |
+| index.html         | **不能删除**，否则Pages站点可能无法正常访问（这是GiteePages的要求） |
 | README.md          | 本文件（对，就是你正在看的这个文件）                         |
 | Tool-v3.1.3.exe    | 静态服务端的小工具，用来生成校验文件                         |
-| 仅更新Pages.bat    | 双击运行，用来更新GiteePages（GithubPages和CodingPages不需要更新） |
+| 仅更新Pages.bat    | 双击运行，用来更新GiteePages（GithubPages不需要更新）        |
 | 仅更新校验文件.cmd | 双击运行，用来更新校验文件                                   |
 | 仅提交Git.cmd      | 双击运行，用来提交Git修改（也可以自己手动提交Git）           |
 
 ## 使用限制
 
-1. GiteePages的更新有1分钟冷却时间，不要频繁部署/更新。GithubPages和CodingPages无此限制
+1. GiteePages的更新有1分钟冷却时间，不要频繁部署/更新。GithubPages无此限制
 2. Gitee仓库单文件大小限制为50Mb（免费版），如果仓库里有超过50Mb的文件可能会提交失败
 3. Gitee单个仓库容量限制为500Mb（免费版），总提交超过此大小可能推送失败
 4. 受仓库容量限制，请不定期使用rebase命令整理/合并提交，否则可能会超出仓库容量限制推送失败
@@ -44,7 +44,7 @@
 
 ### Gitee
 
-1. 在使用GiteePages要曾经有过成功部署GiteePages的记录。在仓库的**服务**页面，找到**Gitee Pages**，设置好后点击**启动/更新**按钮，就算完成了第一次GiteePages的部署。此步骤只需要手动操作一次，后面会使用开源的[gitee-pages-action](https://github.com/yanglbme/gitee-pages-action)项目来自动帮我们进行这个操作
+1. 在使用GiteePages要曾经有过成功部署GiteePages的记录。在仓库的**服务**页面，找到**Gitee Pages**，设置好后点击**启动/更新**按钮，就算完成了第一次GiteePages的部署。此步骤只需要手动操作一次，后面会使用开源的[gitee-pages-action](https://github.com/yanglbme/gitee-pages-action)项目来代替我们完成这个操作
 2. 接着配置GiteePages的自动化刷新功能，打开`gitee-pages-action`目录
 3. 重命名`_config.exam.yml`为`_config.yml`并打开编辑`_config.yml`
 4. 按下面的表格填写`_config.yml`并保存关闭，请确保下面的信息填写准确，不能有任何错误，也不能留空，如果要填写空字符串，请使用`''`代替。如果填写信息有误，可能会导致Pages出现404无法访问的情况
@@ -65,11 +65,9 @@
 
 ### Github
 
-待完成
+Github不像Gitee在每次推送后要主动点击Pages更新按钮，Github会在每次推送时自动更新。所以每次推送后不需要做额外的操作，就能马上看到效果
 
-### Coding
-
-待完成
+开启GithubPages的步骤也非常简单：打开仓库页面，点击`Settings`，点击左侧的`Pages`，将Source下面的None切换为main或者master，然后将后面的文件夹选项改为`/(root)`，点击`Save`按钮，即可开启Pages服务
 
 ## GiteePages的问题
 
