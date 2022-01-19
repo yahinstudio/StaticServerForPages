@@ -1,4 +1,5 @@
 update: 'res'
 common_mode:
   - .minecraft/mods/*.jar
+  - .minecraft/mods/*.exe
 once_mode: []
