@@ -1,7 +1,133 @@
 - children:
   - children:
+    - hash: d71bcab251d1b36e4827c8f7e7499596a1bd7c62
+      length: 1680383
+      name: liteloader-1.12.2-SNAPSHOT-release.jar
     - hash: f904ba15339103acb898b6a618b87f6498b3d8bc
       length: 283513
       name: SmoothFont-mc1.12.2-2.1.2.jar
+    - hash: cf2946595e48b5b4d24de2e9880d86be84fceb4b
+      length: 21128
+      name: "[3D\u58F0\u6548]Sound-Physics-1.12.2.jar"
+    - hash: b7ce5f00e9709e08e81c597dc2d7336f58b7fe8e
+      length: 651473
+      name: "[JEI\u7269\u54C1\u7BA1\u7406]jei_1.12.2-4.15.0.291.jar"
+    - hash: 94864b8144caac3d1f8b2c00b2f3a7ca8dad4031
+      length: 54046
+      name: "[JEI\u9644\u5C5E]jeiintegration_1.12.2-1.5.1.36.jar"
+    - hash: 4b92b1d08feb964b5b1d4460407e6f2ccadd544e
+      length: 18595
+      name: "[JEI\u9644\u5C5E]jetif-1.12.2-1.2.0.jar"
+    - hash: 28cb85134c66e2f468da82ef37fffffe2f64a966
+      length: 106019
+      name: "[JEI\u9644\u5C5E]justenoughbuttons-1.12.2-1.2.3.jar"
+    - hash: 585a86f1532379e7d36364459ecd037140830ca0
+      length: 214339
+      name: "[JEI\u9644\u5C5E]JustEnoughCharacters-1.12.0-3.4.3.jar"
+    - hash: c272b2d28d4b3f1f73bf8aa02f9d4ae8eb802c3b
+      length: 219508
+      name: "[JEI\u9644\u5C5E]JustEnoughResources-1.12.2-0.8.10.50.jar"
+    - hash: e6a84ddb8a39e99da41aab77b671f9b30f1483ea
+      length: 39764
+      name: "[JEI\u9644\u5C5E]moreoverlays-1.14-mc1.12.2.jar"
+    - hash: 72b671099bb0a88f664ce0e0022f857991be6288
+      length: 285813
+      name: "[R\u952E\u6574\u7406]InventoryTweaks-1.64+dev.146.jar"
+    - hash: bcb36ec39c39d6b97252d68f379ddeb20de539ef
+      length: 201683
+      name: "[\u4F18\u5316]foamfix-0.10.10-1.12.2.jar"
+    - hash: c8727ecbeca3d08b4f576c4491ccecad42cef5b1
+      length: 270415
+      name: "[\u4F18\u5316]randompatches-1.12.2-1.19.1.1.jar"
+    - hash: 25740e4cffa45a47d13881656ec7ec7e5d02db8a
+      length: 315455
+      name: "[\u4FE1\u606F\u663E\u793A]InGameInfoXML-1.12.2-2.8.2.94-universal.jar"
+    - hash: f70b39168f2a02d47792cf29bef432e20d0bcd57
+      length: 76753
+      name: "[\u4FE1\u606F\u663E\u793A\u524D\u7F6E]LunatriusCore-1.12.2-1.2.0.42-universal.jar"
+    - hash: 58bcea9f01686241305378a6d5c88531ec3eb8d5
+      length: 5491
+      name: "[\u4FEE\u590D]ClearMissingMods-1.12.2-1.0-SNAPSHOT.jar"
+    - hash: 118c08515ec97651047e29419d85efee856ecab3
+      length: 2045274
+      name: "[\u4FEE\u590D]Sledgehammer-1.12.2-1.6.6.jar"
+    - hash: f8181cd78a0efe8c51d4f0cd46a1c83c373a1f7d
+      length: 1117860
+      name: "[\u4FEE\u590D]VanillaFix-1.0.10-99.jar"
+    - hash: 3db606caa69d9861a991e3c1e6779061ddf8546f
+      length: 86188
+      name: "[\u5207\u6362\u8D26\u53F7]InGameAccountSwitcher-Forge-1.12-7.0.3.jar"
+    - hash: d0efa575c6e43031622aa52c1f4836aa552322da
+      length: 1042621
+      name: "[\u542F\u52A8\u4F18\u5316]Surge-1.12.2-2.0.77.jar"
+    - hash: be42bf244d4864f6832890ef2a2ade59f44a3f8b
+      length: 97854
+      name: "[\u5DE5\u4F5C\u53F0\u8C03\u6574]CraftingTweaks_1.12.2-8.1.9.jar"
+    - hash: 245235d5c67daff00ee658ee1f88ae8c3e4584b8
+      length: 155196
+      name: "[\u5E27\u6570\u4F18\u5316]BetterFps-1.4.8.jar"
+    - hash: 5141eb0dce5a19297587bf362bcbc4e8132ccabc
+      length: 18056
+      name: "[\u6309\u952E\u7ED1\u5B9A]keybinder.jar"
+    - hash: 3da4323f71bcadcf140002a9f49578f0cd5ce8a8
+      length: 6990968
+      name: "[\u65C5\u884C\u5730\u56FE]journeymap-1.12.2-5.7.1.jar"
+    - hash: 71816a252558d89513c02d6f59459d2303393526
+      length: 25577
+      name: "[\u65F6\u949F\u754C\u9762]ClockHUD-1.12-1.4.0.jar"
+    - hash: aefc4535b18d01652fdf9a9068668d6c7def8a36
+      length: 20380
+      name: "[\u67E5\u770B\u6F5C\u5F71\u76D2]ShulkerBoxViewer-1.5-mc[1.11-1.12.2].jar"
+    - hash: 68c065c436d70378457a4821b9f5e342bea4e73d
+      length: 5923
+      name: "[\u6807\u9898\u4FEE\u6539]titlechanger-1.1.3.jar"
+    - hash: e4a5c3dbbafa4361c4e1d04b6fe6758498b4d33c
+      length: 13120
+      name: "[\u6807\u9898\u9875]BetterTitleScreen-1.12.2-1.4b.jar"
+    - hash: 256b53b26298c2f59590f02ba67889821afd79b1
+      length: 177413
+      name: "[\u68A6\u5E7B\u65B9\u5757]FancyBlockParticles-1.12.x-2.4.1.jar"
+    - hash: f03f78042c97c7168642393c25d7f00f575f8cc0
+      length: 182746
+      name: "[\u68C0\u6D4B]LagGoggles-1.12.2-5.7-130.jar"
+    - hash: 5073ccf895a6f519dadb650222efc5637c68341b
+      length: 52750
+      name: "[\u68C0\u6D4B\u524D\u7F6E]TickCentral-2.5.jar"
+    - hash: b6eb46393d7b163c9704ceaeb42fa2b9115ab980
+      length: 50084
+      name: "[\u6D88\u9664\u51B2\u7A81]NoMoreRecipeConflict-0.13(1.12.2).jar"
+    - hash: 9fd670fa9b13973ae242c0e143fd8e18fb871676
+      length: 414655
+      name: "[\u6E38\u620F\u754C\u9762]BetterPvP_1.16.2_Forge_1.12.jar"
+    - hash: 2853a2c038f04475a7952d3f451be4fb39a7382b
+      length: 121731
+      name: "[\u76AE\u80A4\u8865\u4E01]CustomSkinLoader_Forge-14.10a.jar"
+    - hash: 7587ed18e17e3f6517ba3f459e0d70e2ee47cf69
+      length: 3302
+      name: "[\u79FB\u9664\u5408\u6210\u6307\u5357]nrg_DEV-MC1.12.2-0.1.0.5ee6938.jar"
+    - hash: 3062a5361eb44f9070b8429d1c465c5daec62781
+      length: 88308
+      name: "[\u82F9\u679C\u6838]AppleCore-mc1.12.2-3.2.0.jar"
+    - hash: 23162a97cab0adb4be2fc6d3937c613929d1d5c7
+      length: 32317
+      name: "[\u82F9\u679C\u76AE]AppleSkin-mc1.12-1.0.9.jar"
+    - hash: 053e9f5d6fcc8a1bcae36d3599ebc7e1b2cc50b3
+      length: 3841
+      name: "[\u91CD\u8F7D\u58F0\u97F3]soundsystemreloader-1.0.0.jar"
+    - hash: f9195979f48da91d59d17c7b83aee23823da8377
+      length: 4797
+      name: "[\u9632\u5361\u5730\u72F1\u95E8]NetherPortalFixForge-1.0.jar"
+    - hash: d5b5be5d5d54de5ed35c96131118c411a51129bc
+      length: 301893
+      name: "[\u9AD8\u4EAE\u663E\u793A]theoneprobe-1.12-1.4.28.jar"
+    - hash: 458feeed667a49ba753aae18f18f49c1a791b82c
+      length: 242440
+      name: "[\u9AD8\u4EAE\u663E\u793A\u9644\u5C5E]topaddons-1.12.2-1.10.1.jar"
+    - hash: e805d4be5c2a3343488c573145606e90bb13816d
+      length: 2444057
+      name: "[\u9AD8\u6E05\u4FEE\u590D]OptiFine_1.12.2_HD_U_E3.jar"
+    - hash: 0d3b0589021905b2eab8ba93805e9fdef463288e
+      length: 75170
+      name: "[\u9F20\u6807\u6574\u7406]MouseTweaks-2.10-mc1.12.2.jar"
     name: mods
   name: .minecraft
